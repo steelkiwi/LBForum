@@ -1,0 +1,920 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cultura v.0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-20 15:12+0200\n"
+"PO-Revision-Date: 2012-12-20 12:54+0300\n"
+"Last-Translator: Andrii Tierzov <avtierzov@gmail.com>\n"
+"Language-Team: LANGUAGE <avtierzov@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: culture/admin.py:324
+msgid "Log in"
+msgstr "Вход"
+
+#: culture/admin.py:390
+#, fuzzy
+msgid "Site administration"
+msgstr "Регистрация пользователя"
+
+#: culture/admin.py:442
+#, fuzzy, python-format
+msgid "%s administration"
+msgstr "Регистрация пользователя"
+
+#: culture/templates/admin/app_index.html:7
+#: culture/templates/admin/base.html:47
+#: culture/templates/admin/change_form.html:19
+#: culture/templates/admin/change_list.html:41
+#, fuzzy
+msgid "Home"
+msgstr "Усадьбы"
+
+#: culture/templates/admin/base.html:28
+msgid "Welcome,"
+msgstr "Добро пожаловать"
+
+#: culture/templates/admin/base.html:36
+msgid "Change password"
+msgstr "Изменить пароль"
+
+#: culture/templates/admin/base.html:38
+msgid "Log out"
+msgstr "Выход"
+
+#: culture/templates/admin/change_form.html:22
+#: culture/templates/admin/index.html:33
+#, fuzzy
+msgid "Add"
+msgstr "Адрес"
+
+#: culture/templates/admin/change_form.html:32
+#: culture/templates/admin/info/change_form.html:37
+msgid "History"
+msgstr "История"
+
+#: culture/templates/admin/change_form.html:44
+#: culture/templates/admin/change_list.html:67
+#, fuzzy
+msgid "Please correct the error below."
+msgid_plural "Please correct the errors below."
+msgstr[0] "Пожалуйста, исправьте ошибки ниже."
+msgstr[1] "Пожалуйста, исправьте ошибки ниже."
+msgstr[2] "Пожалуйста, исправьте ошибки ниже."
+
+#: culture/templates/lbforum/forum.html:28
+msgid "Topic Type"
+msgstr "Тип топика"
+
+#: culture/templates/lbforum/forum.html:33
+#: culture/templates/lbforum/forum.html:75
+msgid "All"
+msgstr "Все"
+
+#: culture/templates/lbforum/forum.html:55
+#: culture/templates/lbforum/account/inc_base_profile.html:26
+msgid "Topics"
+msgstr "Топики"
+
+#: culture/templates/lbforum/forum.html:68
+msgid "Post new topic"
+msgstr "Новый топик"
+
+#: culture/templates/lbforum/forum.html:78
+msgid "Distillate District"
+msgstr "Только избранное"
+
+#: culture/templates/lbforum/inc_header.html:9
+msgid "My profile"
+msgstr "Мой профиль"
+
+#: culture/templates/lbforum/inc_header.html:10
+msgid "Logout"
+msgstr "Выход"
+
+#: culture/templates/lbforum/inc_header.html:12
+#: culture/templates/lbforum/widgets/cur_user_profile.html:38
+msgid "Register"
+msgstr "Регистрация"
+
+#: culture/templates/lbforum/inc_header.html:13
+#: culture/templates/lbforum/widgets/cur_user_profile.html:41
+msgid "Login"
+msgstr "Вход"
+
+#: culture/templates/lbforum/inc_post_content.html:12
+msgid "Attachments"
+msgstr "Вложения"
+
+#: culture/templates/lbforum/inc_post_content.html:25
+msgid "Show Image Attachments"
+msgstr "Показать вложеное изображение"
+
+#: culture/templates/lbforum/inc_post_content.html:28
+msgid "Image Attachments"
+msgstr "Вложеное изображение"
+
+#: culture/templates/lbforum/inc_post_content.html:40
+msgid "to see the content, user must reply first."
+msgstr "чтобы увидеть содержимое, пользователь должен ответить первым."
+
+#: culture/templates/lbforum/inc_post_detail.html:18
+#: culture/templates/lbforum/topic.html:73
+msgid "quote"
+msgstr "цитировать"
+
+#: culture/templates/lbforum/inc_post_detail.html:20
+#: culture/templates/lbforum/topic.html:68
+msgid "edit"
+msgstr "изменить"
+
+#: culture/templates/lbforum/inc_post_detail.html:23
+#: culture/templates/lbforum/topic.html:54
+msgid "Do you want to delete it?"
+msgstr "Вы желаете удалить это"
+
+#: culture/templates/lbforum/inc_post_detail.html:23
+#: culture/templates/lbforum/topic.html:54
+msgid "delete"
+msgstr "удалить"
+
+#: culture/templates/lbforum/inc_topic_detail.html:17
+msgid "Closed"
+msgstr "Закрыто"
+
+#: culture/templates/lbforum/inc_topic_detail.html:21
+msgid "Sticky"
+msgstr "Прикрепленная"
+
+#: culture/templates/lbforum/inc_topic_detail.html:25
+msgid "Distillate"
+msgstr "Избранное"
+
+#: culture/templates/lbforum/inc_topic_detail.html:38
+msgid "views"
+msgstr "просмотр"
+
+#: culture/templates/lbforum/inc_topic_detail.html:39
+#: culture/templates/lbforum/topic.html:100
+msgid "Last post"
+msgstr "Последнее сообщение"
+
+#: culture/templates/lbforum/index.html:39
+msgid "More"
+msgstr "Ещё"
+
+#: culture/templates/lbforum/markitup_preview.html:11
+msgid "preview"
+msgstr "предпросмотр"
+
+#: culture/templates/lbforum/post.html:26
+#: culture/templates/lbforum/topic.html:135
+msgid "You may use"
+msgstr "Вы можете использовать"
+
+#: culture/templates/lbforum/post.html:47
+msgid "Post new"
+msgstr "Новое сообщение"
+
+#: culture/templates/lbforum/post.html:47
+msgid "Edit"
+msgstr "Изменить"
+
+#: culture/templates/lbforum/post.html:61
+msgid "Please correct the errors below."
+msgstr "Пожалуйста, исправьте ошибки ниже."
+
+#: culture/templates/lbforum/post.html:82
+#: culture/templates/lbforum/topic.html:128
+msgid "Submit"
+msgstr "Отправить"
+
+#: culture/templates/lbforum/post.html:83
+#: culture/templates/lbforum/topic.html:129
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: culture/templates/lbforum/post.html:125
+msgid "submit"
+msgstr "отправить"
+
+#: culture/templates/lbforum/post_paginate.html:5
+msgid "Pages"
+msgstr "Страницы"
+
+#: culture/templates/lbforum/recent.html:23
+msgid "Recent Topics"
+msgstr "Последние топики"
+
+#: culture/templates/lbforum/topic.html:40
+msgid "undistillate"
+msgstr "из избранного"
+
+#: culture/templates/lbforum/topic.html:40
+msgid "distillate"
+msgstr "в избранное"
+
+#: culture/templates/lbforum/topic.html:45
+msgid "unclose"
+msgstr "открыть"
+
+#: culture/templates/lbforum/topic.html:45
+msgid "close"
+msgstr "закрыть"
+
+#: culture/templates/lbforum/topic.html:50
+msgid "unhide"
+msgstr "показать"
+
+#: culture/templates/lbforum/topic.html:50
+msgid "hide"
+msgstr "спрятать"
+
+#: culture/templates/lbforum/topic.html:78
+msgid "Post reply"
+msgstr "Ответить"
+
+#: culture/templates/lbforum/topic.html:91
+msgid "No Reply"
+msgstr "Без ответов"
+
+#: culture/templates/lbforum/topic.html:98
+#: culture/templates/lbforum/account/inc_base_profile.html:29
+msgid "Posts"
+msgstr "Сообщения"
+
+#: culture/templates/lbforum/topic.html:120
+msgid "Quick reply to this topic"
+msgstr "Быстрый ответ"
+
+#: culture/templates/lbforum/account/base.html:18
+#: culture/templates/lbforum/account/base.html:21
+msgid "Introduction"
+msgstr "Представление"
+
+#: culture/templates/lbforum/account/base.html:29
+#: culture/templates/lbforum/account/avatar/change.html:16
+msgid "Avatar"
+msgstr "Аватар"
+
+#: culture/templates/lbforum/account/inc_base_profile.html:19
+#: culture/templates/lbforum/widgets/cur_user_profile.html:25
+msgid "Registered"
+msgstr "Зарегистрирован"
+
+#: culture/templates/lbforum/account/inc_base_profile.html:34
+#, python-format
+msgid "View all %(view_user)s's topics"
+msgstr "Смотреть все топики пользователя %(view_user)s"
+
+#: culture/templates/lbforum/account/inc_base_profile.html:37
+#, python-format
+msgid "View all %(view_user)s's posts"
+msgstr "Смотреть все сообщения пользователя %(view_user)s"
+
+#: culture/templates/lbforum/account/profile.html:9
+#: culture/templates/lbforum/account/user_posts.html:9
+#: culture/templates/lbforum/account/user_topics.html:9
+#: culture/templates/lbforum/account/avatar/change.html:9
+#, python-format
+msgid "%(view_user)s's profile"
+msgstr "профиль пользователя %(view_user)s"
+
+#: culture/templates/lbforum/account/user_posts.html:24
+#: culture/templates/lbforum/account/user_topics.html:24
+#, python-format
+msgid "Topics by %(view_user)s"
+msgstr "Топики от %(view_user)s"
+
+#: culture/templates/lbforum/account/user_topics.html:29
+msgid "replies"
+msgstr "ответы"
+
+#: culture/templates/lbforum/account/user_topics.html:30
+msgid "topics"
+msgstr "топики"
+
+#: culture/templates/lbforum/account/user_topics.html:31
+msgid "last post"
+msgstr "последнее сообщение"
+
+#: culture/templates/lbforum/account/avatar/change.html:24
+msgid "Current avatar"
+msgstr "Текущий аватар"
+
+#: culture/templates/lbforum/account/avatar/change.html:36
+msgid "The allowed image file types are"
+msgstr "Разрешенные типы файлов изображений"
+
+#: culture/templates/lbforum/account/avatar/change.html:36
+msgid "and"
+msgstr "и"
+
+#: culture/templates/lbforum/account/avatar/change.html:42
+msgid "Upload avatar file"
+msgstr "Загрузить аватар"
+
+#: culture/templates/lbforum/account/avatar/change.html:45
+msgid "Avatar Image"
+msgstr "Изображение аватара"
+
+#: culture/templates/lbforum/account/avatar/change.html:52
+msgid "Upload New Image"
+msgstr "Загрузить новое изображение"
+
+#: culture/templates/lbforum/widgets/categories_and_forums.html:4
+msgid "Forums"
+msgstr "Форумы"
+
+#: culture/templates/lbforum/widgets/lbf_status.html:4
+msgid "Forum Status"
+msgstr "Статус форума"
+
+#: culture/templates/lbforum/widgets/lbf_status.html:10
+msgid "Total number of registered users"
+msgstr "Всего зарегистрированных пользователей"
+
+#: culture/templates/lbforum/widgets/lbf_status.html:14
+msgid "Total number of topics"
+msgstr "Всего топиков"
+
+#: culture/templates/lbforum/widgets/lbf_status.html:18
+msgid "Total number of posts"
+msgstr "Всего сообщений"
+
+#: culture/templates/lbforum/widgets/onlineinfos.html:5
+msgid "Currently online"
+msgstr "Сейчас онлайн"
+
+#: culture/templates/lbforum/widgets/onlineinfos.html:6
+msgid "guests"
+msgstr "гостей"
+
+#: culture/templates/lbforum/widgets/onlineinfos.html:6
+msgid "registered user"
+msgstr "зарегистрированных пользователей"
+
+#: poll/models.py:41
+#, fuzzy
+msgid "description"
+msgstr "Образование"
+
+#: users/models.py:86
+#, fuzzy
+msgid "date joined"
+msgstr "Мой профиль"
+
+msgid "Remember me"
+msgstr "Запомнить меня"
+
+msgid "Cultural heritage Forum"
+msgstr "Форум Культурное наследие"
+
+msgid "Update forum state info"
+msgstr "Обновить информацию о состоянии форума"
+
+msgid "Update topic state info"
+msgstr "Обновить информацию о состоянии топика"
+
+msgid "sticky/unsticky topics"
+msgstr "прикрепить/отцепить топики"
+
+msgid "close/unclose topics"
+msgstr "закрыть/открыть топики"
+
+msgid "hide/unhide topics"
+msgstr "скрыть/показать топики"
+
+#, fuzzy
+msgid "Last Reply"
+msgstr "Ответить"
+
+#, fuzzy
+msgid "Last Topic"
+msgstr "Последнее сообщение"
+
+msgid "Subject"
+msgstr "Тема"
+
+msgid "Message"
+msgstr "Сообщение"
+
+#, fuzzy
+msgid "Need Reply"
+msgstr "Без ответов"
+
+#, fuzzy
+msgid "Attachments Need Reply"
+msgstr "Вложения"
+
+msgid "Category"
+msgstr "Категория"
+
+msgid "Categories"
+msgstr "Категории"
+
+msgid "Forum"
+msgstr "Форум"
+
+msgid "Topic Types"
+msgstr "Тип топиков"
+
+msgid "Cultural heritage"
+msgstr "Культурное наследие"
+
+msgid "Default"
+msgstr "По умолчанию"
+
+msgid "Post"
+msgstr "Пост"
+
+msgid "Topic"
+msgstr "Топик"
+
+msgid "Topic: %s"
+msgstr "Топик: %s"
+
+msgid "Forum Userprofile"
+msgstr "профиль пользователя форума"
+
+msgid "Forum Userprofiles"
+msgstr "профили пользователей форума"
+
+msgid "topic"
+msgstr "топик"
+
+#, fuzzy
+msgid "reply"
+msgstr "Ответить"
+
+#, fuzzy
+msgid "You must"
+msgstr "Вы можете использовать"
+
+msgid "or"
+msgstr "или"
+
+#, fuzzy
+msgid "register"
+msgstr "Регистрация"
+
+#, fuzzy
+msgid "to post a topic"
+msgstr "Новый топик"
+
+#, fuzzy
+msgid "Topic by"
+msgstr "Тип топика"
+
+#, fuzzy
+msgid "Preview your"
+msgstr "Предпросмотр"
+
+#, fuzzy
+msgid "edited"
+msgstr "изменить"
+
+#, fuzzy
+msgid "Required information"
+msgstr "Подтверждение регистрации"
+
+msgid "Topic subject"
+msgstr "Тема топика"
+
+#, fuzzy
+msgid "Post by"
+msgstr "Опубликовать"
+
+#, fuzzy
+msgid "to post a reply"
+msgstr "Ответить"
+
+#, fuzzy
+msgid "unsticky"
+msgstr "Прикрепленная"
+
+#, fuzzy
+msgid "sticky"
+msgstr "Прикрепленная"
+
+#, fuzzy
+msgid "'s profile"
+msgstr "Мой профиль"
+
+#, fuzzy
+msgid "Signature"
+msgstr "Регистрация"
+
+#, fuzzy
+msgid "Welcome to your profile"
+msgstr "Добро пожаловать на"
+
+msgid "Change your password"
+msgstr "Изменить мой пароль"
+
+#, fuzzy
+msgid "Last login"
+msgstr "Вход"
+
+#, fuzzy
+msgid "Posts and topics"
+msgstr "Новый топик"
+
+#, fuzzy
+msgid "%(user)s's profile"
+msgstr "профиль пользователя %(view_user)s"
+
+#, fuzzy
+msgid "Current signature"
+msgstr "Текущий аватар"
+
+#, fuzzy
+msgid "Posts by %(view_user)s"
+msgstr "Топики от %(view_user)s"
+
+#, fuzzy
+msgid "posts"
+msgstr "Сообщения"
+
+#, fuzzy
+msgid "Newest registered user"
+msgstr "зарегистрированных пользователей"
+
+#, fuzzy
+msgid "previous"
+msgstr "предпросмотр"
+
+msgid "Online"
+msgstr "В сети"
+
+msgid "Offline"
+msgstr "Не в сети"
+
+msgid "%s ago"
+msgstr "%s назад"
+
+msgid "Error"
+msgstr "Ошибка"
+
+msgid "Page not found"
+msgstr "Страница не найдена"
+
+msgid "Main page"
+msgstr "Главная страница"
+
+msgid "E-mail"
+msgstr "Электронная почта"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Forgot your password?"
+msgstr "Забыли пароль?"
+
+msgid "Log in with"
+msgstr "Войти с помощью"
+
+msgid "With the universal electronic card"
+msgstr "При помощи универсальной электронной карты"
+
+msgid "Will be sent a temporary password."
+msgstr "Будет выслан временный пароль."
+
+msgid "Clicking this button you agree with the"
+msgstr "Нажимая на эту кнопку, вы соглашаетесь с"
+
+msgid " rules of using"
+msgstr "правилами пользования"
+
+msgid "the service."
+msgstr "сервисом."
+
+msgid "Sign up"
+msgstr "Регистрация"
+
+msgid "Registration through"
+msgstr "Регистрация через"
+
+msgid "Municipal District Administration of Odintsovo"
+msgstr "Администрация Одинцовского муниципального района"
+
+msgid "Virtual culture"
+msgstr "Виртуальная культура"
+
+msgid "Odintsovo district"
+msgstr "Одинцовского района"
+
+msgid "Main"
+msgstr "Главная"
+
+msgid "News"
+msgstr "Новости"
+
+msgid "Monument"
+msgstr "Памятники"
+
+msgid "Military burial"
+msgstr "Воинские захоронения"
+
+msgid "Show"
+msgstr "Показать"
+
+msgid "Official portal"
+msgstr "Официальный портал"
+
+msgid "Local government"
+msgstr "Местное самоуправление"
+
+msgid "Health"
+msgstr "Здравоохранение"
+
+msgid "Culture"
+msgstr "Культура"
+
+msgid "Mass media"
+msgstr "СМИ"
+
+msgid "Innovations"
+msgstr "Инновации"
+
+msgid "Portal municipal services"
+msgstr "Портал муниципальных услуг"
+
+msgid "Voice of the people"
+msgstr "Голос народа"
+
+msgid "Public transport"
+msgstr "Общественный транспорт"
+
+msgid "Geoportal"
+msgstr "Геопортал"
+
+msgid "3D-model of Odintsovo"
+msgstr "3D-модель Одинцово"
+
+msgid "All services"
+msgstr "Все сервисы"
+
+msgid "Please correct the error below"
+msgid_plural "Please correct the errors below"
+msgstr[0] "Пожалуйста, исправьте ошибки ниже."
+msgstr[1] "Пожалуйста, исправьте ошибки ниже."
+msgstr[2] "Пожалуйста, исправьте ошибки ниже."
+
+#, fuzzy
+msgid "or make changes"
+msgstr "Изменение пароля"
+
+msgid ""
+"Please, choose one of topic's sections in the right sidebar or enter one "
+"of the most recent topics listed below."
+msgstr "Пожалуйста, выберите один из разделов форума в меню справа или зайдите в один из самых новых топиков, перечисленных ниже."
+
+msgid "by"
+msgstr "от"
+
+msgid "By"
+msgstr "От"
+
+msgid "hits"
+msgstr "просмотров"
+
+msgid "Forum's sections"
+msgstr "Разделы форума"
+
+msgid "Comments"
+msgstr "Комментарии"
+
+msgid "All news"
+msgstr "Все новости"
+
+msgid "News of the website \"Virtual Culture\""
+msgstr "Новости портала «Виртуальная культура»"
+
+msgid "Account activation is complete!"
+msgstr "Активация учетной записи завершена!"
+
+msgid "Thanks for registering."
+msgstr "Спасибо за регистрацию."
+
+msgid "Now you can log in as a registered user."
+msgstr "Теперь вы можете войти в систему как зарегистрированный пользователь."
+
+msgid "Back to home"
+msgstr "Вернуться на главную"
+
+msgid "This key does not exist or that the user is already activated"
+msgstr "Этот ключ не существует или пользователь уже активирован"
+
+msgid "Thanks for registering"
+msgstr "Спасибо за регистрацию"
+
+msgid "Now you can"
+msgstr "Теперь Вы можете"
+
+msgid "log in"
+msgstr "войти"
+
+msgid "as a registered user"
+msgstr "как зарегистрированный пользователь"
+
+msgid ""
+"\n"
+"Thanks for what we have decided to register!\n"
+"\n"
+"Account must be activated within %(expiration_days)s-days.\n"
+"Your username: %(email)s\n"
+"Your password: %(pass)s\n"
+"\n"
+"To activate your account you must go to this link:\n"
+"\n"
+"http://%(site)s/accounts/activate/%(activation_key)s/\n"
+"\n"
+"Or enter this code: %(activation_key)s\n"
+msgstr ""
+"\n"
+"Спасибо за то, что Вы решили зарегистрироваться!\n"
+"\n"
+"Учетная запись должна быть активирована в течении %(expiration_days)s-"
+"дней.\n"
+"Ваше имя пользователя: %(email)s\n"
+"Ваш пароль: %(pass)s\n"
+"\n"
+"Для активации вашего аккаунта необходимо перейти по этой ссылке:\n"
+"\n"
+"http://%(site)s/accounts/activate/%(activation_key)s/\n"
+"\n"
+"Или ввести этод код: %(activation_key)s\n"
+
+msgid "Account activation"
+msgstr "Активация аккаунта"
+
+msgid "Authorization on the site."
+msgstr "Авторизация на сайте."
+
+msgid "You already logged."
+msgstr "Вы уже вошли."
+
+msgid "Enter the site"
+msgstr "Вход на сайт"
+
+msgid "You're out"
+msgstr "Вы вышли"
+
+msgid "Hope to see you again"
+msgstr "Приходите еще"
+
+msgid "Password change successful"
+msgstr "Пароль успешно изменен"
+
+msgid "Your password was changed."
+msgstr "Ваш пароль был изменен."
+
+msgid "Password change"
+msgstr "Изменение пароля"
+
+msgid ""
+"Please enter your old password, for security's sake, and then enter your "
+"new password twice so we can verify you typed it in correctly."
+msgstr ""
+"Пожалуйста, введите свой ​​старый пароль, для безопасности, а затем введите "
+"новый пароль дважды, чтобы мы могли проверить, что Вы ввели его правильно."
+
+msgid "Change my password"
+msgstr "Изменить мой пароль"
+
+msgid "Password reset comleted"
+msgstr "Сброс пароля завершен"
+
+msgid "Your password has been restored. Can log in"
+msgstr "Ваш пароль был восстановлен. Может войти"
+
+msgid "Password reset"
+msgstr "Сброс пароля"
+
+msgid "Password recovery"
+msgstr "Восстановление пароля"
+
+msgid "Please enter the new password twice to make sure your spelling"
+msgstr ""
+"Пожалуйста, введите новый пароль дважды, чтобы убедиться, что Вы написали "
+"его правильно"
+
+msgid "New password"
+msgstr "Новый пароль"
+
+msgid "Enter the password again"
+msgstr "Введите пароль еще раз"
+
+msgid "Password reset unsuccessful"
+msgstr "Сброс пароля неудачен"
+
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a new password reset."
+msgstr ""
+"Ссылка сброса пароля была недействительной, возможно потому, что уже была "
+"использована. Пожалуйста, запросите новый сброса пароля."
+
+msgid "Password reset successful"
+msgstr "Сброс пароля успешнен"
+
+msgid ""
+"We have sent instructions to reset your password to the email address you "
+"provided. You should receive it shortly."
+msgstr ""
+"Мы отправили инструкции по сбросу пароля на электронный адрес, который вы "
+"указали. Вы должны получить его в ближайшее время."
+
+msgid "You're receiving this e-mail because you requested a password reset"
+msgstr "Вы получили это письмо, потому что вы просили сброс пароля"
+
+msgid "for your user account at %(site_name)s"
+msgstr "для учетной записи пользователя на сайте %(site_name)s"
+
+msgid "Please go to the following page and choose a new password:"
+msgstr ""
+"Пожалуйста, перейдите на следующую страницу и выбирите новый пароль:"
+
+msgid "Your username, in case you've forgotten:"
+msgstr "Ваше имя пользователя, в случае, если вы забыли:"
+
+msgid "Thanks for using our site!"
+msgstr "Спасибо за использование нашего сайта!"
+
+msgid "The %(site_name)s team"
+msgstr "Команда %(site_name)s"
+
+#, fuzzy
+msgid ""
+"Recovery images to a forgotten password, enter the email address you "
+"provided during registration."
+msgstr ""
+"Мы отправили инструкции по сбросу пароля на электронный адрес, который вы "
+"указали. Вы должны получить его в ближайшее время."
+
+msgid "Restore password"
+msgstr "Восстановить пароль"
+
+msgid "Registration confirmation"
+msgstr "Подтверждение регистрации"
+
+msgid ""
+"\n"
+"                <p>Thank registration information sent to your inbox.</"
+"p>\n"
+"                <p>To confirm, enter the code from the letter mailed.</"
+"p>\n"
+"            "
+msgstr ""
+"\n"
+"                <p>Спасибо, регистрационная информация отправлена на Ваш "
+"почтовый ящик.</p>\n"
+"                <p>Для подтверждения перейдите по ссылке в письме.</p>\n"
+"            "
+
+msgid "Send"
+msgstr "Отправить"
+
+msgid "By registering, you agree to"
+msgstr "Регистрируясь, вы соглашаетесь с"
+
+msgid "user agreement"
+msgstr "пользовательским соглашением"
+
+msgid "To print"
+msgstr "Версия для печати"
+
+msgid "About"
+msgstr "О портале"
+
+msgid "Contacts"
+msgstr "Контакты"
+
+msgid "Maps"
+msgstr "Карты"
+
+msgid "topic type"
+msgstr "тип топика"
+
+msgid "topic types"
+msgstr "типы топиков"
+
+msgid "forum user profile"
+msgstr "профиль пользователя форума"
+
+msgid "forum user profiles"
+msgstr "профили пользователей форума"
