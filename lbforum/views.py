@@ -3,7 +3,6 @@
 from django.http import HttpResponseRedirect, HttpResponse
 from django.shortcuts import render, get_object_or_404
 from django.contrib.auth.decorators import login_required
-from django.contrib.auth.models import User
 from django.utils.translation import ugettext_lazy as _
 from django.utils.translation import ugettext
 from django.core.urlresolvers import reverse
@@ -13,6 +12,13 @@ from django.views.decorators.csrf import csrf_exempt
 from forms import EditPostForm, NewPostForm, ForumForm
 from models import Topic, Forum, Post
 import settings as lbf_settings
+
+
+try:
+    from django.contrib.auth import get_user_model
+    User = get_user_model()
+except ImportError:
+    from django.contrib.auth.models import User
 
 
 def index(request, template_name="lbforum/index.html"):

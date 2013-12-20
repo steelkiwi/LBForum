@@ -4,7 +4,6 @@ from base64 import b64encode, b64decode
 import pickle
 
 from django.db import models
-from django.contrib.auth.models import User
 from django.db.models.signals import post_save
 from django.utils.translation import ugettext_lazy as _
 from django.db.models import Sum
@@ -12,6 +11,12 @@ from django.conf import settings
 
 from attachments.models import Attachment
 from onlineuser.models import Online
+
+try:
+    from django.contrib.auth import get_user_model
+    User = get_user_model()
+except ImportError:
+    from django.contrib.auth.models import User
 
 
 class Config(models.Model):
