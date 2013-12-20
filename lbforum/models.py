@@ -96,6 +96,10 @@ class TopicType(models.Model):
     slug = models.SlugField(max_length=100)
     description = models.TextField(blank=True, default='')
 
+    class Meta:
+        verbose_name = _('topic type')
+        verbose_name_plural = _('topic types')
+
     def __unicode__(self):
         return self.name
 
@@ -257,6 +261,10 @@ class LBForumUserProfile(models.Model):
     userrank = models.CharField(max_length=30, default="Junior Member")
     last_posttime = models.DateTimeField(auto_now_add=True)
     signature = models.CharField(max_length=1000, blank=True)
+
+    class Meta:
+        verbose_name = _('forum user profile')
+        verbose_name_plural = _('forum user profiles')
 
     def __unicode__(self):
         return self.user.username
