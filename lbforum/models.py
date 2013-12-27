@@ -267,7 +267,7 @@ class LBForumUserProfile(models.Model):
         verbose_name_plural = _('forum user profiles')
 
     def __unicode__(self):
-        return self.user.username
+        return self.user.get_full_name()
 
     def get_total_posts(self):
         return self.user.post_set.count()
@@ -279,7 +279,7 @@ class LBForumUserProfile(models.Model):
 #### do smoe connect ###
 def gen_last_post_info(post):
     last_post = {
-        'posted_by': post.posted_by.username,
+        'posted_by': post.posted_by.get_full_name(),
         'update': post.created_on
     }
     return b64encode(pickle.dumps(last_post, pickle.HIGHEST_PROTOCOL))
