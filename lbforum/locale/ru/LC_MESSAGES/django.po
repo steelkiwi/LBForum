@@ -8,15 +8,14 @@ msgstr ""
 "Project-Id-Version: cultura v.0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-20 15:12+0200\n"
-"PO-Revision-Date: 2012-12-20 12:54+0300\n"
+"PO-Revision-Date: 2013-12-27 13:29+0300\n"
 "Last-Translator: Andrii Tierzov <avtierzov@gmail.com>\n"
 "Language-Team: LANGUAGE <avtierzov@gmail.com>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "X-Poedit-Language: Russian\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -26,22 +25,20 @@ msgid "Log in"
 msgstr "Вход"
 
 #: culture/admin.py:390
-#, fuzzy
 msgid "Site administration"
-msgstr "Регистрация пользователя"
+msgstr ""
 
 #: culture/admin.py:442
-#, fuzzy, python-format
+#, python-format
 msgid "%s administration"
-msgstr "Регистрация пользователя"
+msgstr ""
 
 #: culture/templates/admin/app_index.html:7
 #: culture/templates/admin/base.html:47
 #: culture/templates/admin/change_form.html:19
 #: culture/templates/admin/change_list.html:41
-#, fuzzy
 msgid "Home"
-msgstr "Усадьбы"
+msgstr ""
 
 #: culture/templates/admin/base.html:28
 msgid "Welcome,"
@@ -57,9 +54,8 @@ msgstr "Выход"
 
 #: culture/templates/admin/change_form.html:22
 #: culture/templates/admin/index.html:33
-#, fuzzy
 msgid "Add"
-msgstr "Адрес"
+msgstr "Добавить"
 
 #: culture/templates/admin/change_form.html:32
 #: culture/templates/admin/info/change_form.html:37
@@ -68,7 +64,6 @@ msgstr "История"
 
 #: culture/templates/admin/change_form.html:44
 #: culture/templates/admin/change_list.html:67
-#, fuzzy
 msgid "Please correct the error below."
 msgid_plural "Please correct the errors below."
 msgstr[0] "Пожалуйста, исправьте ошибки ниже."
@@ -77,7 +72,7 @@ msgstr[2] "Пожалуйста, исправьте ошибки ниже."
 
 #: culture/templates/lbforum/forum.html:28
 msgid "Topic Type"
-msgstr "Тип топика"
+msgstr "Тип темы"
 
 #: culture/templates/lbforum/forum.html:33
 #: culture/templates/lbforum/forum.html:75
@@ -87,11 +82,11 @@ msgstr "Все"
 #: culture/templates/lbforum/forum.html:55
 #: culture/templates/lbforum/account/inc_base_profile.html:26
 msgid "Topics"
-msgstr "Топики"
+msgstr "Темы"
 
 #: culture/templates/lbforum/forum.html:68
 msgid "Post new topic"
-msgstr "Новый топик"
+msgstr "Новая тема"
 
 #: culture/templates/lbforum/forum.html:78
 msgid "Distillate District"
@@ -217,7 +212,7 @@ msgstr "Страницы"
 
 #: culture/templates/lbforum/recent.html:23
 msgid "Recent Topics"
-msgstr "Последние топики"
+msgstr "Последние темы"
 
 #: culture/templates/lbforum/topic.html:40
 msgid "undistillate"
@@ -278,7 +273,7 @@ msgstr "Зарегистрирован"
 #: culture/templates/lbforum/account/inc_base_profile.html:34
 #, python-format
 msgid "View all %(view_user)s's topics"
-msgstr "Смотреть все топики пользователя %(view_user)s"
+msgstr "Смотреть все темы пользователя %(view_user)s"
 
 #: culture/templates/lbforum/account/inc_base_profile.html:37
 #, python-format
@@ -297,7 +292,7 @@ msgstr "профиль пользователя %(view_user)s"
 #: culture/templates/lbforum/account/user_topics.html:24
 #, python-format
 msgid "Topics by %(view_user)s"
-msgstr "Топики от %(view_user)s"
+msgstr "Темы от %(view_user)s"
 
 #: culture/templates/lbforum/account/user_topics.html:29
 msgid "replies"
@@ -305,7 +300,7 @@ msgstr "ответы"
 
 #: culture/templates/lbforum/account/user_topics.html:30
 msgid "topics"
-msgstr "топики"
+msgstr "темы"
 
 #: culture/templates/lbforum/account/user_topics.html:31
 msgid "last post"
@@ -349,7 +344,7 @@ msgstr "Всего зарегистрированных пользователе
 
 #: culture/templates/lbforum/widgets/lbf_status.html:14
 msgid "Total number of topics"
-msgstr "Всего топиков"
+msgstr "Всего тем"
 
 #: culture/templates/lbforum/widgets/lbf_status.html:18
 msgid "Total number of posts"
@@ -368,14 +363,12 @@ msgid "registered user"
 msgstr "зарегистрированных пользователей"
 
 #: poll/models.py:41
-#, fuzzy
 msgid "description"
-msgstr "Образование"
+msgstr "Описание"
 
 #: users/models.py:86
-#, fuzzy
 msgid "date joined"
-msgstr "Мой профиль"
+msgstr "дата посещения"
 
 msgid "Remember me"
 msgstr "Запомнить меня"
@@ -387,24 +380,22 @@ msgid "Update forum state info"
 msgstr "Обновить информацию о состоянии форума"
 
 msgid "Update topic state info"
-msgstr "Обновить информацию о состоянии топика"
+msgstr "Обновить информацию о состоянии темы"
 
 msgid "sticky/unsticky topics"
-msgstr "прикрепить/отцепить топики"
+msgstr "прикрепить/отцепить темы"
 
 msgid "close/unclose topics"
-msgstr "закрыть/открыть топики"
+msgstr "закрыть/открыть темы"
 
 msgid "hide/unhide topics"
-msgstr "скрыть/показать топики"
+msgstr "скрыть/показать темы"
 
-#, fuzzy
 msgid "Last Reply"
-msgstr "Ответить"
+msgstr "Последний ответ"
 
-#, fuzzy
 msgid "Last Topic"
-msgstr "Последнее сообщение"
+msgstr "Последняя тема"
 
 msgid "Subject"
 msgstr "Тема"
@@ -412,13 +403,11 @@ msgstr "Тема"
 msgid "Message"
 msgstr "Сообщение"
 
-#, fuzzy
 msgid "Need Reply"
-msgstr "Без ответов"
+msgstr "Не отвеченые"
 
-#, fuzzy
 msgid "Attachments Need Reply"
-msgstr "Вложения"
+msgstr "Вложения требующие ответа"
 
 msgid "Category"
 msgstr "Категория"
@@ -430,7 +419,7 @@ msgid "Forum"
 msgstr "Форум"
 
 msgid "Topic Types"
-msgstr "Тип топиков"
+msgstr "Типы тем"
 
 msgid "Cultural heritage"
 msgstr "Культурное наследие"
@@ -439,13 +428,13 @@ msgid "Default"
 msgstr "По умолчанию"
 
 msgid "Post"
-msgstr "Пост"
+msgstr "Сообщение"
 
 msgid "Topic"
-msgstr "Топик"
+msgstr "Тема"
 
 msgid "Topic: %s"
-msgstr "Топик: %s"
+msgstr "Тема: %s"
 
 msgid "Forum Userprofile"
 msgstr "профиль пользователя форума"
@@ -454,108 +443,85 @@ msgid "Forum Userprofiles"
 msgstr "профили пользователей форума"
 
 msgid "topic"
-msgstr "топик"
+msgstr "тема"
 
-#, fuzzy
 msgid "reply"
-msgstr "Ответить"
+msgstr "ответить"
 
-#, fuzzy
 msgid "You must"
-msgstr "Вы можете использовать"
+msgstr "Вы должны"
 
 msgid "or"
 msgstr "или"
 
-#, fuzzy
 msgid "register"
-msgstr "Регистрация"
+msgstr "регистрация"
 
-#, fuzzy
 msgid "to post a topic"
-msgstr "Новый топик"
+msgstr "Опубликовать тему"
 
-#, fuzzy
 msgid "Topic by"
-msgstr "Тип топика"
+msgstr "Тема от"
 
-#, fuzzy
 msgid "Preview your"
 msgstr "Предпросмотр"
 
-#, fuzzy
 msgid "edited"
-msgstr "изменить"
+msgstr "отредактированный"
 
-#, fuzzy
 msgid "Required information"
-msgstr "Подтверждение регистрации"
+msgstr "Необходимая информация"
 
 msgid "Topic subject"
-msgstr "Тема топика"
+msgstr "Заголовок темы"
 
-#, fuzzy
 msgid "Post by"
 msgstr "Опубликовать"
 
-#, fuzzy
 msgid "to post a reply"
 msgstr "Ответить"
 
-#, fuzzy
 msgid "unsticky"
-msgstr "Прикрепленная"
+msgstr "незакреплено"
 
-#, fuzzy
 msgid "sticky"
-msgstr "Прикрепленная"
+msgstr "закреплено"
 
-#, fuzzy
 msgid "'s profile"
-msgstr "Мой профиль"
+msgstr " профиль"
 
-#, fuzzy
 msgid "Signature"
-msgstr "Регистрация"
+msgstr "Сигнатура"
 
-#, fuzzy
 msgid "Welcome to your profile"
-msgstr "Добро пожаловать на"
+msgstr "Добро пожаловать в свой профиль"
 
 msgid "Change your password"
 msgstr "Изменить мой пароль"
 
-#, fuzzy
 msgid "Last login"
-msgstr "Вход"
+msgstr "Последний вход"
 
-#, fuzzy
 msgid "Posts and topics"
-msgstr "Новый топик"
+msgstr "Темы и сообщения"
 
-#, fuzzy
 msgid "%(user)s's profile"
 msgstr "профиль пользователя %(view_user)s"
 
-#, fuzzy
 msgid "Current signature"
-msgstr "Текущий аватар"
+msgstr "Текущая сигнатура"
 
-#, fuzzy
 msgid "Posts by %(view_user)s"
-msgstr "Топики от %(view_user)s"
+msgstr "Сообщения от %(view_user)s"
 
-#, fuzzy
 msgid "posts"
-msgstr "Сообщения"
+msgstr "сообщения"
 
-#, fuzzy
 msgid "Newest registered user"
-msgstr "зарегистрированных пользователей"
+msgstr ""
 
-#, fuzzy
 msgid "previous"
-msgstr "предпросмотр"
+msgstr ""
 
 msgid "Online"
 msgstr "В сети"
@@ -674,14 +640,11 @@ msgstr[0] "Пожалуйста, исправьте ошибки ниже."
 msgstr[1] "Пожалуйста, исправьте ошибки ниже."
 msgstr[2] "Пожалуйста, исправьте ошибки ниже."
 
-#, fuzzy
 msgid "or make changes"
-msgstr "Изменение пароля"
+msgstr "или изменить"
 
-msgid ""
-"Please, choose one of topic's sections in the right sidebar or enter one "
-"of the most recent topics listed below."
-msgstr "Пожалуйста, выберите один из разделов форума в меню справа или зайдите в один из самых новых топиков, перечисленных ниже."
+msgid "Please, choose one of topic's sections in the right sidebar or enter one of the most recent topics listed below."
+msgstr "Пожалуйста, выберите один из разделов форума в меню справа или зайдите в один из самых новых тем, перечисленных ниже."
 
 msgid "by"
 msgstr "от"
@@ -748,8 +711,7 @@ msgstr ""
 "\n"
 "Спасибо за то, что Вы решили зарегистрироваться!\n"
 "\n"
-"Учетная запись должна быть активирована в течении %(expiration_days)s-"
-"дней.\n"
+"Учетная запись должна быть активирована в течении %(expiration_days)s-дней.\n"
 "Ваше имя пользователя: %(email)s\n"
 "Ваш пароль: %(pass)s\n"
 "\n"
@@ -786,12 +748,8 @@ msgstr "Ваш пароль был изменен."
 msgid "Password change"
 msgstr "Изменение пароля"
 
-msgid ""
-"Please enter your old password, for security's sake, and then enter your "
-"new password twice so we can verify you typed it in correctly."
-msgstr ""
-"Пожалуйста, введите свой ​​старый пароль, для безопасности, а затем введите "
-"новый пароль дважды, чтобы мы могли проверить, что Вы ввели его правильно."
+msgid "Please enter your old password, for security's sake, and then enter your new password twice so we can verify you typed it in correctly."
+msgstr "Пожалуйста, введите свой ​​старый пароль, для безопасности, а затем введите новый пароль дважды, чтобы мы могли проверить, что Вы ввели его правильно."
 
 msgid "Change my password"
 msgstr "Изменить мой пароль"
@@ -809,9 +767,7 @@ msgid "Password recovery"
 msgstr "Восстановление пароля"
 
 msgid "Please enter the new password twice to make sure your spelling"
-msgstr ""
-"Пожалуйста, введите новый пароль дважды, чтобы убедиться, что Вы написали "
-"его правильно"
+msgstr "Пожалуйста, введите новый пароль дважды, чтобы убедиться, что Вы написали его правильно"
 
 msgid "New password"
 msgstr "Новый пароль"
@@ -822,22 +778,14 @@ msgstr "Введите пароль еще раз"
 msgid "Password reset unsuccessful"
 msgstr "Сброс пароля неудачен"
 
-msgid ""
-"The password reset link was invalid, possibly because it has already been "
-"used.  Please request a new password reset."
-msgstr ""
-"Ссылка сброса пароля была недействительной, возможно потому, что уже была "
-"использована. Пожалуйста, запросите новый сброса пароля."
+msgid "The password reset link was invalid, possibly because it has already been used.  Please request a new password reset."
+msgstr "Ссылка сброса пароля была недействительной, возможно потому, что уже была использована. Пожалуйста, запросите новый сброса пароля."
 
 msgid "Password reset successful"
 msgstr "Сброс пароля успешнен"
 
-msgid ""
-"We have sent instructions to reset your password to the email address you "
-"provided. You should receive it shortly."
-msgstr ""
-"Мы отправили инструкции по сбросу пароля на электронный адрес, который вы "
-"указали. Вы должны получить его в ближайшее время."
+msgid "We have sent instructions to reset your password to the email address you provided. You should receive it shortly."
+msgstr "Мы отправили инструкции по сбросу пароля на электронный адрес, который вы указали. Вы должны получить его в ближайшее время."
 
 msgid "You're receiving this e-mail because you requested a password reset"
 msgstr "Вы получили это письмо, потому что вы просили сброс пароля"
@@ -846,8 +794,7 @@ msgid "for your user account at %(site_name)s"
 msgstr "для учетной записи пользователя на сайте %(site_name)s"
 
 msgid "Please go to the following page and choose a new password:"
-msgstr ""
-"Пожалуйста, перейдите на следующую страницу и выбирите новый пароль:"
+msgstr "Пожалуйста, перейдите на следующую страницу и выбирите новый пароль:"
 
 msgid "Your username, in case you've forgotten:"
 msgstr "Ваше имя пользователя, в случае, если вы забыли:"
@@ -858,13 +805,8 @@ msgstr "Спасибо за использование нашего сайта!"
 msgid "The %(site_name)s team"
 msgstr "Команда %(site_name)s"
 
-#, fuzzy
-msgid ""
-"Recovery images to a forgotten password, enter the email address you "
-"provided during registration."
+msgid "Recovery images to a forgotten password, enter the email address you provided during registration."
 msgstr ""
-"Мы отправили инструкции по сбросу пароля на электронный адрес, который вы "
-"указали. Вы должны получить его в ближайшее время."
 
 msgid "Restore password"
 msgstr "Восстановить пароль"
@@ -874,15 +816,12 @@ msgstr "Подтверждение регистрации"
 
 msgid ""
 "\n"
-"                <p>Thank registration information sent to your inbox.</"
-"p>\n"
-"                <p>To confirm, enter the code from the letter mailed.</"
-"p>\n"
+"                <p>Thank registration information sent to your inbox.</p>\n"
+"                <p>To confirm, enter the code from the letter mailed.</p>\n"
 "            "
 msgstr ""
 "\n"
-"                <p>Спасибо, регистрационная информация отправлена на Ваш "
-"почтовый ящик.</p>\n"
+"                <p>Спасибо, регистрационная информация отправлена на Ваш почтовый ящик.</p>\n"
 "                <p>Для подтверждения перейдите по ссылке в письме.</p>\n"
 "            "
 
@@ -908,13 +847,101 @@ msgid "Maps"
 msgstr "Карты"
 
 msgid "topic type"
-msgstr "тип топика"
+msgstr "тип темы"
 
 msgid "topic types"
-msgstr "типы топиков"
+msgstr "типы тем"
 
 msgid "forum user profile"
 msgstr "профиль пользователя форума"
 
 msgid "forum user profiles"
 msgstr "профили пользователей форума"
+
+msgid "ordering"
+msgstr "сортировка"
+
+msgid "updated on"
+msgstr "обновлено"
+
+msgid "userrank"
+msgstr "ранг пользователя"
+
+msgid "signature"
+msgstr "сигнатура"
+
+msgid "poster ip"
+msgstr "IP отправителя"
+
+msgid "topic post"
+msgstr "опубликован"
+
+msgid "format"
+msgstr "формат"
+
+msgid "message"
+msgstr "сообщение"
+
+msgid "attachment"
+msgstr "вложения"
+
+msgid "has imgs"
+msgstr "есть изображения"
+
+msgid "has attachments"
+msgstr "есть вложения"
+
+msgid "edited by"
+msgstr "отредактировано"
+
+msgid "subject"
+msgstr "заголовок"
+
+msgid "num views"
+msgstr "кол-во просмотров"
+
+msgid "num replies"
+msgstr "кол-во ответов"
+
+msgid "need replay"
+msgstr "без ответа"
+
+msgid "need reply attachments"
+msgstr "не просмотренные вложения"
+
+msgid "closed"
+msgstr "закрыт"
+
+msgid "hidden"
+msgstr "скрытый"
+
+msgid "level"
+msgstr "уровень"
+
+msgid "slug"
+msgstr "путь"
+
+msgid "category"
+msgstr "категория"
+
+msgid "num topics"
+msgstr "кол-во тем"
+
+msgid "num posts"
+msgstr "кол-во сообщений"
+
+msgid "last posttime"
+msgstr "время последнего сообщения"
+
+msgid "last activity"
+msgstr "последняя активность"
+
+msgid "created on"
+msgstr "создано"
+
+msgid "Upload"
+msgstr "Загрузить"
+
+msgid "Uploading"
+msgstr "Загрузка"
+
