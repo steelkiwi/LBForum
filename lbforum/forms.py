@@ -60,7 +60,7 @@ class EditPostForm(PostForm):
         post = self.instance
         post.message = self.cleaned_data['message']
         post.updated_on = datetime.now()
-        post.edited_by = self.user.username
+        post.edited_by = self.user.get_full_name()
         attachments = self.cleaned_data['attachments']
         post.update_attachments(attachments)
         post.save()

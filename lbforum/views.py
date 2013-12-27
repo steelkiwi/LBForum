@@ -110,7 +110,7 @@ def new_post(request, forum_id=None, topic_id=None, form_class=NewPostForm,
         if qid:
             qpost = get_object_or_404(Post, id=qid)
             initial['message'] = "[quote=%s]%s[/quote]"
-            initial['message'] %= (qpost.posted_by.username, qpost.message)
+            initial['message'] %= (qpost.posted_by.get_full_name(), qpost.message)
         form = form_class(initial=initial, forum=forum)
     ext_ctx = {
         'forum': forum,
