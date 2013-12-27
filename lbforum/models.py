@@ -20,16 +20,16 @@ except ImportError:
 
 
 class Config(models.Model):
-    key = models.CharField(max_length=255)  # PK
-    value = models.CharField(max_length=255)
+    key = models.CharField(_('key'), max_length=255)  # PK
+    value = models.CharField(_('value'), max_length=255)
 
 
 class Category(models.Model):
-    name = models.CharField(max_length=100)
-    description = models.TextField(default='')
-    ordering = models.PositiveIntegerField(default=1)
-    created_on = models.DateTimeField(auto_now_add=True)
-    updated_on = models.DateTimeField(blank=True, null=True)
+    name = models.CharField(_('name'), max_length=100)
+    description = models.TextField(_('description'), default='')
+    ordering = models.PositiveIntegerField(_('ordering'), default=1)
+    created_on = models.DateTimeField(_('created on'), auto_now_add=True)
+    updated_on = models.DateTimeField(_('updated on'), blank=True, null=True)
 
     class Meta:
         verbose_name = _("Category")
@@ -41,17 +41,17 @@ class Category(models.Model):
 
 
 class Forum(models.Model):
-    name = models.CharField(max_length=100)
-    slug = models.SlugField(max_length=110)
-    description = models.TextField(default='')
-    ordering = models.PositiveIntegerField(default=1)
-    category = models.ForeignKey(Category)
-    created_on = models.DateTimeField(auto_now_add=True)
-    updated_on = models.DateTimeField(blank=True, null=True)
-    num_topics = models.IntegerField(default=0)
-    num_posts = models.IntegerField(default=0)
+    name = models.CharField(_('name'), max_length=100)
+    slug = models.SlugField(_('slug'), max_length=110)
+    description = models.TextField(_('description'), default='')
+    ordering = models.PositiveIntegerField(_('ordering'), default=1)
+    category = models.ForeignKey(Category, verbose_name=_('category'))
+    created_on = models.DateTimeField(_('created on'), auto_now_add=True)
+    updated_on = models.DateTimeField(_('updated on'), blank=True, null=True)
+    num_topics = models.IntegerField(_('num topics'), default=0)
+    num_posts = models.IntegerField(_('num posts'), default=0)
 
-    last_post = models.CharField(max_length=255, blank=True)  # pickle obj
+    last_post = models.CharField(_('last post'), max_length=255, blank=True)  # pickle obj
 
     class Meta:
         verbose_name = _("Forum")
@@ -92,9 +92,9 @@ class Forum(models.Model):
 
 class TopicType(models.Model):
     forum = models.ForeignKey(Forum, verbose_name=_('Forum'))
-    name = models.CharField(max_length=100)
-    slug = models.SlugField(max_length=100)
-    description = models.TextField(blank=True, default='')
+    name = models.CharField(_('name'), max_length=100)
+    slug = models.SlugField(_('slug'), max_length=100)
+    description = models.TextField(_('description'), blank=True, default='')
 
     class Meta:
         verbose_name = _('topic type')
@@ -118,29 +118,29 @@ class Topic(models.Model):
     forum = models.ForeignKey(Forum, verbose_name=_('Forum'))
     topic_type = models.ForeignKey(TopicType, verbose_name=_('Topic Type'),
             blank=True, null=True)
-    posted_by = models.ForeignKey(User)
+    posted_by = models.ForeignKey(User, verbose_name=_('User'))
 
     #TODO ADD TOPIC POST.
     post = models.ForeignKey('Post', verbose_name=_('Post'),
                              related_name='topics_', blank=True, null=True)
-    subject = models.CharField(max_length=999)
-    num_views = models.IntegerField(default=0)
-    num_replies = models.PositiveSmallIntegerField(default=0)  # posts...
-    created_on = models.DateTimeField(auto_now_add=True)
-    updated_on = models.DateTimeField(blank=True, null=True)
-    last_reply_on = models.DateTimeField(auto_now_add=True)
-    last_post = models.CharField(max_length=255, blank=True)  # pickle obj
+    subject = models.CharField(_('subject'), max_length=999)
+    num_views = models.IntegerField(_('num views'), default=0)
+    num_replies = models.PositiveSmallIntegerField(_('num replies'), default=0)  # posts...
+    created_on = models.DateTimeField(_('created on'), auto_now_add=True)
+    updated_on = models.DateTimeField(_('updated on'), blank=True, null=True)
+    last_reply_on = models.DateTimeField(_('last reply on'), auto_now_add=True)
+    last_post = models.CharField(_('last post'), max_length=255, blank=True)  # pickle obj
 
-    has_imgs = models.BooleanField(default=False)
-    has_attachments = models.BooleanField(default=False)
-    need_replay = models.BooleanField(default=False)  # need_reply :-)
-    need_reply_attachments = models.BooleanField(default=False)
+    has_imgs = models.BooleanField(_('has imgs'), default=False)
+    has_attachments = models.BooleanField(_('has attachments'), default=False)
+    need_replay = models.BooleanField(_('need replay'), default=False)  # need_reply :-)
+    need_reply_attachments = models.BooleanField(_('need reply attachments'), default=False)
 
     #Moderation features
-    closed = models.BooleanField(default=False)
-    sticky = models.BooleanField(default=False)
-    hidden = models.BooleanField(default=False)
-    level = models.SmallIntegerField(choices=LEVEL_CHOICES, default=30)
+    closed = models.BooleanField(_('closed'), default=False)
+    sticky = models.BooleanField(_('sticky'), default=False)
+    hidden = models.BooleanField(_('hidden'), default=False)
+    level = models.SmallIntegerField(_('level'), choices=LEVEL_CHOICES, default=30)
 
     objects = TopicManager()
 
@@ -186,20 +186,20 @@ FORMAT_CHOICES = (
 
 class Post(models.Model):
     topic = models.ForeignKey(Topic, verbose_name=_('Topic'), related_name='posts')
-    posted_by = models.ForeignKey(User)
-    poster_ip = models.IPAddressField()
-    topic_post = models.BooleanField(default=False)
+    posted_by = models.ForeignKey(User, verbose_name=_('User'))
+    poster_ip = models.IPAddressField(_('poster ip'), )
+    topic_post = models.BooleanField(_('topic post'), default=False)
 
-    format = models.CharField(max_length=20, default='bbcode')  # user name
-    message = models.TextField()
-    attachments = models.ManyToManyField(Attachment, blank=True)
+    format = models.CharField(_('format'), max_length=20, default='bbcode')  # user name
+    message = models.TextField(_('message'), )
+    attachments = models.ManyToManyField(Attachment, verbose_name=_('Attachment'), blank=True)
 
-    has_imgs = models.BooleanField(default=False)
-    has_attachments = models.BooleanField(default=False)
+    has_imgs = models.BooleanField(_('has imgs'), default=False)
+    has_attachments = models.BooleanField(_('has attachments'), default=False)
 
-    created_on = models.DateTimeField(auto_now_add=True)
-    updated_on = models.DateTimeField(blank=True, null=True)
-    edited_by = models.CharField(max_length=255, blank=True)  # user name
+    created_on = models.DateTimeField(_('created on'), auto_now_add=True)
+    updated_on = models.DateTimeField(_('updated on'), blank=True, null=True)
+    edited_by = models.CharField(_('edited by'), max_length=255, blank=True)  # user name
 
     class Meta:
         verbose_name = _("Post")
@@ -257,10 +257,10 @@ class Post(models.Model):
 class LBForumUserProfile(models.Model):
     user = models.OneToOneField(User, related_name='lbforum_profile',
                                 verbose_name=_('User'))
-    last_activity = models.DateTimeField(auto_now_add=True)
-    userrank = models.CharField(max_length=30, default="Junior Member")
-    last_posttime = models.DateTimeField(auto_now_add=True)
-    signature = models.CharField(max_length=1000, blank=True)
+    last_activity = models.DateTimeField(_('last activity'), auto_now_add=True)
+    userrank = models.CharField(_('userrank'), max_length=30, default="Junior Member")
+    last_posttime = models.DateTimeField(_('last posttime'), auto_now_add=True)
+    signature = models.CharField(_('signature'), max_length=1000, blank=True)
 
     class Meta:
         verbose_name = _('forum user profile')

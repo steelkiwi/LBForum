@@ -99,7 +99,8 @@ $(function() {
             'auto'      : true,
             'folder'    : 'uploads',
             'scriptData': {'session_key': session_key},
-            'buttonText': 'Upload', //lang_Upload,
+            // 'buttonText': lang_Upload,
+            'buttonImg' : upload_img,
             'multi'     : true,
             'fileDataName': 'file',
             'onComplete': function(event, queueID, fileObj, response, data){
