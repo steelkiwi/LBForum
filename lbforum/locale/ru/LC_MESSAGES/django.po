@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: cultura v.0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-20 15:12+0200\n"
-"PO-Revision-Date: 2013-12-27 13:29+0300\n"
+"PO-Revision-Date: 2013-12-30 11:51+0300\n"
 "Last-Translator: Andrii Tierzov <avtierzov@gmail.com>\n"
 "Language-Team: LANGUAGE <avtierzov@gmail.com>\n"
 "Language: \n"
@@ -19,56 +19,6 @@ msgstr ""
 "X-Poedit-Language: Russian\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
 "X-Poedit-SourceCharset: utf-8\n"
-
-#: culture/admin.py:324
-msgid "Log in"
-msgstr "Вход"
-
-#: culture/admin.py:390
-msgid "Site administration"
-msgstr ""
-
-#: culture/admin.py:442
-#, python-format
-msgid "%s administration"
-msgstr ""
-
-#: culture/templates/admin/app_index.html:7
-#: culture/templates/admin/base.html:47
-#: culture/templates/admin/change_form.html:19
-#: culture/templates/admin/change_list.html:41
-msgid "Home"
-msgstr ""
-
-#: culture/templates/admin/base.html:28
-msgid "Welcome,"
-msgstr "Добро пожаловать"
-
-#: culture/templates/admin/base.html:36
-msgid "Change password"
-msgstr "Изменить пароль"
-
-#: culture/templates/admin/base.html:38
-msgid "Log out"
-msgstr "Выход"
-
-#: culture/templates/admin/change_form.html:22
-#: culture/templates/admin/index.html:33
-msgid "Add"
-msgstr "Добавить"
-
-#: culture/templates/admin/change_form.html:32
-#: culture/templates/admin/info/change_form.html:37
-msgid "History"
-msgstr "История"
-
-#: culture/templates/admin/change_form.html:44
-#: culture/templates/admin/change_list.html:67
-msgid "Please correct the error below."
-msgid_plural "Please correct the errors below."
-msgstr[0] "Пожалуйста, исправьте ошибки ниже."
-msgstr[1] "Пожалуйста, исправьте ошибки ниже."
-msgstr[2] "Пожалуйста, исправьте ошибки ниже."
 
 #: culture/templates/lbforum/forum.html:28
 msgid "Topic Type"
@@ -944,4 +894,19 @@ msgstr "Загрузить"
 
 msgid "Uploading"
 msgstr "Загрузка"
+
+msgid "at"
+msgstr " "
+
+msgid "OR"
+msgstr "ИЛИ"
+
+msgid "Popular topics"
+msgstr "Популярные темы"
+
+msgid "Images"
+msgstr "Изображения"
+
+msgid "BBCode"
+msgstr "BB Код"
 
